@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add_stk_page</title>
+<link rel="stylesheet" type="text/css" href="add_stk_page.css">
+</head>
+<body>
+<div class="header">
+<div class="header-right">
+ 
+<a class="active" href="admin_page.html">Back</a>
+
+ 
+<a class="active" href="loginpage.php">Logout</a>
+</div>
+</div>
+<div class="container">
+<form class="border" action="add_stk_page.php" method="POST">
+<div class="row">
+<div class="coll">
+<label for="id">Stock_id:</label>
+</div>
+<div class="colr">
+<input type="text" id="id" name="stk_id" required><br><br>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="name">Product_id:</label>
+</div>
+<div class="colr">
+<input type="text"  id="p_id" name="p_id" required><br><br>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="address">Product_name:</label>
+</div>
+<div class="colr">
+<input type="text" id="pname" name="pname" required><br><br>
+</div>
+</div>
+
+
+<div class="row">
+<div class="coll">
+<label for="phn">Quantity:</label>
+</div>
+<div class="colr">
+<input type="text" id="quantity" name="quantity"  required>
+</div>
+</div>
+
+
+<div class="row">
+<div class="coll">
+<label for="user">Date of expiry:</label>
+</div>
+<div class="colr">
+<input type="text" id="doe" name="doe" required>
+</div>
+</div>
+
+
+
+<div class="row">
+<input type="submit"  value="Submit" name="submit">
+</div>
+
+</form>
+</div>
+</body>
+</html>

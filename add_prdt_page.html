@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add_prdt_page</title>
+<link rel="stylesheet" type="text/css" href="add_prdt_page.css">
+</head>
+<body>
+
+
+<div class="header">
+<div class="header-right">
+ 
+<a class="active" href="admin_page.html">Back</a>
+
+ 
+<a class="active" href="loginpage.php">Logout</a>
+</div>
+</div>
+<div class="container">
+<form class="border" action="add_prdt_page.php" method="POST">
+<div class="row">
+<div class="coll">
+<label for="id">Product_id:</label>
+</div>
+<div class="colr">
+<input type="text" id="id" name="prdt_id" required><br><br>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="name">Product_name:</label>
+</div>
+<div class="colr">
+<input type="text"  id="name" name="name" required><br><br>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="address">Date of expiry:</label>
+</div>
+<div class="colr">
+<input type="date" id="doe" name="doexp" required><br><br>
+</div>
+</div>
+
+
+<div class="row">
+<div class="coll">
+<label for="phn">Price:</label>
+</div>
+<div class="colr">
+<input type="text" id="price" name="price"  required>
+</div>
+</div>
+
+
+
+<div class="row">
+<input type="submit"  value="Submit" name="submit">
+</div>
+
+</form>
+</div>
+</body>
+</html>

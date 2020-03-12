@@ -1,0 +1,95 @@
+s<!DOCTYPE html>
+<html>
+<head>
+<title>Add_sales_page</title>
+<link rel="stylesheet" type="text/css" href="add_sales_page.css">
+</head>
+
+<body>
+<div class="header">
+<div class="header-right">
+ 
+<a class="active" href="admin_page.html">Back</a>
+
+ 
+<a class="active" href="loginpage.php">Logout</a>
+</div>
+</div>
+
+<div class="container">
+<form class="border" action="add_sales_page.php" method="POST">
+<div class="row">
+<div class="coll">
+<label for="id">Sales_id:</label>
+</div>
+<div class="colr">
+<input type="text" id="id" name="s_id" required><br><br>
+</div>
+</div>
+<div class="row">
+<div class="coll">
+<label for="id">Customer_id:</label>
+</div>
+<div class="colr">
+<input type="text" id="c_id" name="c_id" required><br><br>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="id">Product_id:</label>
+</div>
+<div class="colr">
+<input type="text" id="p_id" name="p_id" required><br><br>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="dob">date_of_sale:</label>
+</div>
+<div class="colr">
+<input type="date" id="date" name="date" required>
+</div>
+</div>
+<div class="row">
+<div class="coll">
+<label for="name">Product_name:</label>
+</div>
+<div class="colr">
+<input type="text"  id="name" name="pname" required><br><br>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="name">Price:</label>
+</div>
+<div class="colr">
+<input type="text"  id="cost" name="cost" required><br><br>
+</div>
+</div>
+
+
+
+<div class="row">
+<div class="coll">
+<label for="user">quantity:</label>
+</div>
+<div class="colr">
+<input type="float" id="qty" name="quantity" required>
+</div>
+</div>
+
+
+
+
+
+<div class="row">
+<input type="submit"  value="Submit" name="submit">
+</div>
+
+</form>
+</div>
+</body>
+</html>

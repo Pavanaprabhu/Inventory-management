@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add_emp_page</title>
+<link rel="stylesheet" type="text/css" href="add_emp_page.css">
+</head>
+
+<body>
+<div class="header">
+<div class="header-right">
+ 
+<a class="active" href="admin_page.html">Back</a>
+
+ 
+<a class="active" href="loginpage.php">Logout</a>
+</div>
+</div>
+
+<div class="container">
+<form class="border" action="add_emp_page.php" method="POST">
+<div class="row">
+<div class="coll">
+<label for="id">Employee_id:</label>
+</div>
+<div class="colr">
+<input type="text" id="id" name="emp_id" required><br><br>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="name">Employee_name:</label>
+</div>
+<div class="colr">
+<input type="text"  id="name" name="ename" required><br><br>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="address">Employee_address:</label>
+</div>
+<div class="colr">
+<input type="text" id="address" name="address" required><br><br>
+</div>
+</div>
+
+
+<div class="row">
+<div class="coll">
+<label for="phn">Employee_phn:</label>
+</div>
+<div class="colr">
+<input type="phone" id="phn" name="phn_no"  required>
+</div>
+</div>
+
+
+<div class="row">
+<div class="coll">
+<label for="user">email_id:</label>
+</div>
+<div class="colr">
+<input type="email_id" id="email_id" name="email_id" required>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="dob">date_of_birth:</label>
+</div>
+<div class="colr">
+<input type="date" id="dob" name="dob" required>
+</div>
+</div>
+
+
+
+<div class="row">
+<div class="coll">
+<label for="gender">gender:</label>
+</div>
+<div class="colr">
+<input type="char" id="gen" name="gender" required>
+</div>
+</div>
+
+<div class="row">
+<div class="coll">
+<label for="doj">date_of_join:</label>
+</div>
+<div class="colr">
+<input type="date" id="doj" name="doj" required>
+</div>
+</div>
+<div class="row">
+<div class="coll">
+<label for="basic">Salary:</label>
+</div>
+<div class="colr">
+<input type="float" id="sal" name="salary" required>
+</div>
+</div>
+
+
+<div class="row">
+<input type="submit"  value="Submit" name="submit">
+</div>
+
+</form>
+</div>
+</body>
+</html>
